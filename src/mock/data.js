@@ -2,56 +2,74 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Asep Kohar | Full-Stack Developer', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome to my website', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Asep Kohar',
+  subtitle: 'Full-Stack Developer & AI Enthusiast',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: `Full-Stack Developer & AI Enthusiast. Currently, I'm focusing on Angular & NodeJS. I understand what it takes to release a product having worked on the back-end, front-end, testing and finally the deployment aspect of several products.`,
+  paragraphTwo: `Programming Languages: multilingual (not limited to any specific language), and especially experienced in Javascript, PHP, Python`,
+  paragraphThree: `Developing Tools: can adapt to any editors/OSs, usually use visual Studio Code as code editor, have experience with team tools like GitHub, Gitlab, CircleCI, Drone, Trello.`,
+  resume: 'https://drive.google.com/file/d/1mJPaqGYVyKYSTfNr-bPxUssuyM-ZpwqU/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'autopit.png',
+    title: 'Autopit',
+    info: 'WMS (Workshop Management System)',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/akoharu', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'eyzet.png',
+    title: 'EYZET.IO',
+    info: 'Unified Network Management Network',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/akoharu', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'sibudak.png',
+    title: 'SIBUDAK',
+    info: 'Health Service Immunization Application',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/akoharu', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'indonesiaconnect.png',
+    title: 'IndonesiaConnect',
+    info: 'ISP Management System (Mikrotik & ZTE OLT)',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/akoharu', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'sekelahkita.png',
+    title: 'Attendance Management',
+    info: 'Attendance management system integrated with attendance biometric machine',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/akoharu', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +77,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'hallo@kohar.space',
 };
 
 // FOOTER DATA
@@ -68,27 +86,22 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      url: 'https://twitter.com/asepkohar01',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/asep-koharudin/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/akoharu',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
