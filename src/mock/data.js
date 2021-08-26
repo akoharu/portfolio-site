@@ -18,14 +18,21 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: `Full-Stack Developer & AI Enthusiast. Currently, I'm focusing on Angular & NodeJS. I understand what it takes to release a product having worked on the back-end, front-end, testing and finally the deployment aspect of several products.`,
+  paragraphOne: `I'm a Web Developer with over 5 years of professional experience. I work as a full-stack developer using mostly JavaScript programming languages to work on microservices and enterprise applications.`,
   paragraphTwo: `Programming Languages: multilingual (not limited to any specific language), and especially experienced in Javascript, PHP, Python`,
-  paragraphThree: `Developing Tools: can adapt to any editors/OSs, usually use visual Studio Code as code editor, have experience with team tools like GitHub, Gitlab, CircleCI, Drone, Trello.`,
-  resume: 'https://drive.google.com/file/d/1mJPaqGYVyKYSTfNr-bPxUssuyM-ZpwqU/view?usp=sharing', // if no resume, the button will not show up
+  paragraphThree: `Developing Tools: can adapt to any editors/OSs, usually use visual Studio Code as code editor, have experience with tools like GIT, Docker, Kubernetes, CI/CD pipelines.`,
+  resume: 'https://drive.google.com/file/d/1FBiEfxEQ_H3oCxMxC5tpDFsF08vMmN9J/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'tensor.png',
+    title: 'AUTOMATIC DOOR ACCESS MODEL',
+    info: 'Automatic door access model based on face recognition  and face mask detection using a raspberry pi. With Tensorflow and AWS rekognition',
+    url: 'https://youtu.be/4ylA94GjFGE',
+  },
   {
     id: nanoid(),
     img: 'autopit.png',
@@ -33,7 +40,6 @@ export const projectsData = [
     info: 'WMS (Workshop Management System)',
     info2: '',
     url: '',
-    repo: 'https://github.com/akoharu', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -42,7 +48,6 @@ export const projectsData = [
     info: 'Unified Network Management Network',
     info2: '',
     url: '',
-    repo: 'https://github.com/akoharu', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -51,7 +56,6 @@ export const projectsData = [
     info: 'Health Service Immunization Application',
     info2: '',
     url: '',
-    repo: 'https://github.com/akoharu', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -60,7 +64,6 @@ export const projectsData = [
     info: 'ISP Management System (Mikrotik & ZTE OLT)',
     info2: '',
     url: '',
-    repo: 'https://github.com/akoharu', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -69,7 +72,14 @@ export const projectsData = [
     info: 'Attendance management system integrated with attendance biometric machine',
     info2: '',
     url: '',
-    repo: 'https://github.com/akoharu', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'monitoring-system.png',
+    title: 'NMS',
+    info: 'NMS is an application to find out which websites are accessed by clients. Website data opened by the client will be stored in the database, then the school administrator will filter websites that can be accessed in the school environment. If there is an inappropriate website, it can be blocked',
+    info2: '',
+    url: '',
   },
 ];
 
